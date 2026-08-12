@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-  <div>
-    
+  <div className="bg-neutral-200 h-screen" >
+   
   </div>
   );
 }
