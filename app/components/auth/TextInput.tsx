@@ -1,14 +1,15 @@
 import { LucideIcon } from 'lucide-react'
-import React from 'react'
 
 type TextInputProps = {
     title: string,
     type: string,
     placeholder: string,
-    icon: LucideIcon
+    name: string,
+    icon: LucideIcon,
+    required: boolean
 }
 
-const TextInput = ({ title, type, placeholder, icon: Icon }: TextInputProps) => {
+const TextInput = ({ title, type, placeholder, icon: Icon, name, required }: TextInputProps) => {
   
     const id = `id-${title.toLowerCase()}`
 
@@ -20,9 +21,11 @@ const TextInput = ({ title, type, placeholder, icon: Icon }: TextInputProps) => 
             <input 
                 type={type} 
                 id={id}
+                name={name}
                 placeholder={placeholder}
                 className='outline-none w-full'
                 autoComplete={type}
+                required={required}
             />
         </div>
     </div>

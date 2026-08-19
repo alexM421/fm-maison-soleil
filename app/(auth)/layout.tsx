@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const AuthLayout = ({ children }: LayoutProps<"/">) => {
   return (
-    <div className='h-screen bg-neutral-200 flex items-center px-12'>
+    <div className='h-screen bg-neutral-200 justify-center flex items-center px-12'>
         <div className='flex border border-[#E4DED580] rounded-lg max-h-300'>
             <Image
                 className='rounded-tl-lg rounded-bl-lg flex-1 min-w-0'

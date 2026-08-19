@@ -26,6 +26,10 @@ export const PasswordInput = ({
             <input 
                 type={showPassword? 'text':'password'}
                 id={id}    
+                name={idName}
+                min={8}
+                max={255}
+                required
                 className='w-full outline-none'
                 placeholder='••••••••'
                 autoComplete='password'
