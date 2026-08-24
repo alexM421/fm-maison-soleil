@@ -17,14 +17,14 @@ const CheckCard = () => {
 
 
   return (
-    <div className='flex flex-col px-6 py-4 rounded-lg gap-5 bg-neutral-50 w-100 h-105 shadow bg-[repeating-linear-gradient(to_bottom,transparent_0_23px,rgba(43,38,32,0.02)_23px_24px)]'>
+    <div className='flex flex-col p-6 rounded-lg gap-5 bg-neutral-50 w-100 h-105 shadow bg-[repeating-linear-gradient(to_bottom,transparent_0_23px,rgba(43,38,32,0.02)_23px_24px)]'>
         <div className='flex flex-col gap-3'>
             <div className='flex'>
                 <div className='flex flex-col justify-between flex-1'>
-                    <p className='font-mono tracking-wider text-xs text-neutral-600'>RECEIPT</p>
-                    <p className='font-fraunces tracking-tight text-lg text-neutral-900'>Your stay</p>
+                    <p className='font-mono tracking-wider text-[10px] text-neutral-600'>RECEIPT</p>
+                    <p className='font-fraunces tracking-tight text-[20px] text-neutral-900'>Your stay</p>
                 </div>
-            <p className='text-neutral-600 font-mono tracking-wider text-xs text-end'><span className='text-[9px]'>№</span> MS-2026<br/>0421-AH</p>
+            <p className='text-neutral-600 font-mono tracking-wider text-[10px] text-end'><span className='text-[9px]'>№</span> MS-2026<br/>0421-AH</p>
             </div>
             <hr className='border-top border-dashed border-neutral-400 w-full'/>
         </div>

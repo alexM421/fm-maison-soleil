@@ -29,9 +29,9 @@ const CheckItem = ({
 
     return(
         <div className='flex flex-col items-center'>
-            <p className='font-mono text-xs tracking-wider text-neutral-600 mb-2'>{`CHECK ${variant.toUpperCase()}`}</p>
-            <p className='text-neutral-900 font-fraunces text-3xl tracking-tight mb-1.5'>{dayMon}</p>
-            <p className='text-neutral-700 text-sm tracking-wide font-sans'>{weekDay}<span className='mx-1'>·</span>{hour}</p>
+            <p className='font-mono text-[10px] tracking-wider text-neutral-600 mb-2 leading-[140%]'>{`CHECK ${variant.toUpperCase()}`}</p>
+            <p className='text-neutral-900 font-fraunces text-[32px] leading-[120%] tracking-tight mb-1.5'>{dayMon}</p>
+            <p className='text-neutral-700 text-xs tracking-wide font-sans leading-[120%]'>{weekDay}<span className='mx-1'>·</span>{hour}</p>
         </div>
     )
 }
