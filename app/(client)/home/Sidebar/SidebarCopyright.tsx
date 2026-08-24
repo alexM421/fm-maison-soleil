@@ -3,6 +3,7 @@ import React from 'react'
 const SidebarCopyright = () => {
   return (
     <div className='flex flex-col gap-4'>
+      <hr className='border-top border-dashed border-neutral-500'/>
         <div className='flex  font-mono text-sm tracking-widest text-neutral-600 flex-col gap-2.5'>
             <p className=''>EST. 1987</p>
             <p>Maison Soleil · 12 Rue des Oliviers · Cassis</p>

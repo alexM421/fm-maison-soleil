@@ -1,10 +1,11 @@
 import React from 'react'
 import Sidebar from './home/Sidebar/Sidebar'
 
-const layout = () => {
+const layout = ({ children }: LayoutProps<"/">) => {
   return (
-    <div>
+    <div className='flex'>
         <Sidebar/>
+        {children}
     </div>
   )
 }

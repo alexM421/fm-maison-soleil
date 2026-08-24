@@ -1,8 +1,11 @@
 import React from 'react'
+import CheckCard from './Cards/CheckCard/CheckCard'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+        <CheckCard/>
+    </div>
   )
 }
 
